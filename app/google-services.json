@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460457653487",
+    "project_id": "physics-practical-21c31",
+    "storage_bucket": "physics-practical-21c31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460457653487:android:5b6965d25694c3a542d71a",
+        "android_client_info": {
+          "package_name": "com.al.physicspracticles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "<API KEY>"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.al.physicspracticles.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_resource_books"
+        android:name="com.al.physicspracticles.ui.gallery.GalleryFragment"
+        android:label="Resource Books"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_extra_videos"
+        android:name="com.al.physicspracticles.ui.slideshow.SlideshowFragment"
+        android:label="Extra Practicals"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_past_papers"
+        android:name="com.al.physicspracticles.ui.papers.PapersAnswersFragment"
+        android:label="Past Papers and Answers"
+        tools:layout="@layout/fragment_papers_answers" />
+    <fragment
+        android:id="@+id/nav_notes"
+        android:name="com.al.physicspracticles.ui.shortnotes.NotesFragment"
+        android:label="Short Notes"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/nav_links"
+        android:name="com.al.physicspracticles.ui.links.LinkFragment"
+        android:label="Links"
+        tools:layout="@layout/fragment_link" />
+
+</navigation>

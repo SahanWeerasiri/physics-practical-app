@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_resource_books"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Resource Books" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_baseline_notes_24"
+            android:title="Short Notes" />
+        <item
+            android:id="@+id/nav_extra_videos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Extra Practicals" />
+        <item
+            android:id="@+id/nav_past_papers"
+            android:icon="@drawable/ic_baseline_quiz_24"
+            android:title="Past Papers and Answers" />
+        <item
+            android:id="@+id/nav_links"
+            android:icon="@drawable/ic_baseline_link_24"
+            android:title="Links" />
+    </group>
+</menu>
